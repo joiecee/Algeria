@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+  body {
+   color:black;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  }
+  
+  header {
+
+    background-image: url("images/white\ silk.png");
+    text-align: center;
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  h2{
+    text-align: center;
+    font-family:garamond,serif;
+    margin:0 10em;
+  }
+  
+  nav {
+  
+    font-size:1em;
+    text-align: center;
+    padding: 1em;
+  }
+
+nav a {
+  text-decoration: none;
+  content:none;
+  color: #2F4F2F;
+  margin: 1em;
+}
+
+nav ul {
+   list-style-type: none; 
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+nav li {
+  margin: 0 15px;
+}
+.products {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+    justify-content: center;
+    
+}
+  
+.product {
+  width: 250px;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items:center;
+  border: 50px solid #cc;
+  padding: 10px;
+  margin:50px auto ;
+}
+  
+.product img {
+  height:auto;
+  max-width: 300px; 
+  padding:10px;
+  align-items:center;
+ }
+  
+  section {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Fixed the syntax here */
+  }
+  footer {
+    background-color: #2f4f2f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+<!-- Your content goes here -->
+</body>
+</html>
